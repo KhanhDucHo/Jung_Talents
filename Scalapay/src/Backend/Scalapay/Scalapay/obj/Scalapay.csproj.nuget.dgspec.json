@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\Scalapay.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\Scalapay.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\Scalapay.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\Scalapay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\Scalapay.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\Scalapay.csproj",
         "projectName": "Scalapay",
-        "projectPath": "c:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\Scalapay.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\Scalapay.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Jung_Talents_Final\\Scalapay\\src\\Backend\\Scalapay\\Scalapay\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
