@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scalapay", "Scalapay\Scalapay.csproj", "{1B524B96-DAA3-4974-8B19-2F29EA0D3FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B524B96-DAA3-4974-8B19-2F29EA0D3FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B524B96-DAA3-4974-8B19-2F29EA0D3FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B524B96-DAA3-4974-8B19-2F29EA0D3FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B524B96-DAA3-4974-8B19-2F29EA0D3FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4824A373-83C6-439B-8D15-01F0AFF46B20}
+	EndGlobalSection
+EndGlobal
