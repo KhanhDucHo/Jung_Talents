@@ -16,7 +16,7 @@ public class OrderController : ControllerBase
         {
             try
             {
-                // Xây dựng dữ liệu yêu cầu JSON dựa trên order
+                // Build the JSON request data based on the 'order' object
                 var orderData = new
                 {
                     totalAmount = new
@@ -77,13 +77,14 @@ public class OrderController : ControllerBase
                     }
                 };
 
-                // Gọi API Scalapay với dữ liệu đã xây dựng
+                // Call the Scalapay API with the constructed data
                 using (var client = new HttpClient())
                 {
                     client.BaseAddress = new Uri("https://integration.api.scalapay.com/v2/orders");
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "qhtfs87hjnc12kkos");
-
+                    
+                    // Send a POST request with the JSON data
                     var response = await client.PostAsJsonAsync("", orderData);
 
                     if (response.IsSuccessStatusCode)
@@ -93,7 +94,7 @@ public class OrderController : ControllerBase
                         var responseObject = JObject.Parse(responseBody);
                         var checkoutUrl = responseObject["checkoutUrl"].ToString();
 
-                        // Trả về checkoutUrl cho frontend
+                        // Return the 'checkoutUrl' to the frontend
                         return Ok(new { checkoutUrl });
                     }
                     else
